@@ -1,0 +1,51 @@
+C:\Users\aamir\source\repos\WpfApp3\WpfApp3\bin\Debug\WpfApp3.exe.config
+C:\Users\aamir\source\repos\WpfApp3\WpfApp3\bin\Debug\WpfApp3.exe
+C:\Users\aamir\source\repos\WpfApp3\WpfApp3\bin\Debug\WpfApp3.pdb
+C:\Users\aamir\source\repos\WpfApp3\WpfApp3\obj\Debug\WpfApp3.csprojAssemblyReference.cache
+C:\Users\aamir\source\repos\WpfApp3\WpfApp3\obj\Debug\MainWindow.g.cs
+C:\Users\aamir\source\repos\WpfApp3\WpfApp3\obj\Debug\App.g.cs
+C:\Users\aamir\source\repos\WpfApp3\WpfApp3\obj\Debug\WpfApp3_MarkupCompile.cache
+C:\Users\aamir\source\repos\WpfApp3\WpfApp3\obj\Debug\WpfApp3_MarkupCompile.lref
+C:\Users\aamir\source\repos\WpfApp3\WpfApp3\obj\Debug\MainWindow.baml
+C:\Users\aamir\source\repos\WpfApp3\WpfApp3\obj\Debug\WpfApp3.g.resources
+C:\Users\aamir\source\repos\WpfApp3\WpfApp3\obj\Debug\WpfApp3.Properties.Resources.resources
+C:\Users\aamir\source\repos\WpfApp3\WpfApp3\obj\Debug\WpfApp3.csproj.GenerateResource.cache
+C:\Users\aamir\source\repos\WpfApp3\WpfApp3\obj\Debug\WpfApp3.csproj.CoreCompileInputs.cache
+C:\Users\aamir\source\repos\WpfApp3\WpfApp3\obj\Debug\WpfApp3.exe
+C:\Users\aamir\source\repos\WpfApp3\WpfApp3\obj\Debug\WpfApp3.pdb
+C:\Users\aamir\source\repos\WpfApp3\WpfApp3\obj\Debug\ElementsWindow.g.cs
+C:\Users\aamir\source\repos\WpfApp3\WpfApp3\obj\Debug\ElementsWindow.baml
+C:\Users\aamir\OneDrive\Рабочий стол\PROJ\WpfApp3\bin\Debug\WpfApp3.exe.config
+C:\Users\aamir\OneDrive\Рабочий стол\PROJ\WpfApp3\bin\Debug\WpfApp3.exe
+C:\Users\aamir\OneDrive\Рабочий стол\PROJ\WpfApp3\bin\Debug\WpfApp3.pdb
+C:\Users\aamir\OneDrive\Рабочий стол\PROJ\WpfApp3\obj\Debug\WpfApp3.csprojAssemblyReference.cache
+C:\Users\aamir\OneDrive\Рабочий стол\PROJ\WpfApp3\obj\Debug\ElementsWindow.g.cs
+C:\Users\aamir\OneDrive\Рабочий стол\PROJ\WpfApp3\obj\Debug\MainWindow.g.cs
+C:\Users\aamir\OneDrive\Рабочий стол\PROJ\WpfApp3\obj\Debug\App.g.cs
+C:\Users\aamir\OneDrive\Рабочий стол\PROJ\WpfApp3\obj\Debug\WpfApp3_MarkupCompile.cache
+C:\Users\aamir\OneDrive\Рабочий стол\PROJ\WpfApp3\obj\Debug\WpfApp3_MarkupCompile.lref
+C:\Users\aamir\OneDrive\Рабочий стол\PROJ\WpfApp3\obj\Debug\ElementsWindow.baml
+C:\Users\aamir\OneDrive\Рабочий стол\PROJ\WpfApp3\obj\Debug\MainWindow.baml
+C:\Users\aamir\OneDrive\Рабочий стол\PROJ\WpfApp3\obj\Debug\WpfApp3.g.resources
+C:\Users\aamir\OneDrive\Рабочий стол\PROJ\WpfApp3\obj\Debug\WpfApp3.Properties.Resources.resources
+C:\Users\aamir\OneDrive\Рабочий стол\PROJ\WpfApp3\obj\Debug\WpfApp3.csproj.GenerateResource.cache
+C:\Users\aamir\OneDrive\Рабочий стол\PROJ\WpfApp3\obj\Debug\WpfApp3.csproj.CoreCompileInputs.cache
+C:\Users\aamir\OneDrive\Рабочий стол\PROJ\WpfApp3\obj\Debug\WpfApp3.exe
+C:\Users\aamir\OneDrive\Рабочий стол\PROJ\WpfApp3\obj\Debug\WpfApp3.pdb
+C:\Users\aamir\OneDrive\Рабочий стол\PROJ — копия (2)\WpfApp3\bin\Debug\WpfApp3.exe.config
+C:\Users\aamir\OneDrive\Рабочий стол\PROJ — копия (2)\WpfApp3\bin\Debug\WpfApp3.exe
+C:\Users\aamir\OneDrive\Рабочий стол\PROJ — копия (2)\WpfApp3\bin\Debug\WpfApp3.pdb
+C:\Users\aamir\OneDrive\Рабочий стол\PROJ — копия (2)\WpfApp3\obj\Debug\WpfApp3.csprojAssemblyReference.cache
+C:\Users\aamir\OneDrive\Рабочий стол\PROJ — копия (2)\WpfApp3\obj\Debug\ElementsWindow.g.cs
+C:\Users\aamir\OneDrive\Рабочий стол\PROJ — копия (2)\WpfApp3\obj\Debug\MainWindow.g.cs
+C:\Users\aamir\OneDrive\Рабочий стол\PROJ — копия (2)\WpfApp3\obj\Debug\App.g.cs
+C:\Users\aamir\OneDrive\Рабочий стол\PROJ — копия (2)\WpfApp3\obj\Debug\WpfApp3_MarkupCompile.cache
+C:\Users\aamir\OneDrive\Рабочий стол\PROJ — копия (2)\WpfApp3\obj\Debug\WpfApp3_MarkupCompile.lref
+C:\Users\aamir\OneDrive\Рабочий стол\PROJ — копия (2)\WpfApp3\obj\Debug\ElementsWindow.baml
+C:\Users\aamir\OneDrive\Рабочий стол\PROJ — копия (2)\WpfApp3\obj\Debug\MainWindow.baml
+C:\Users\aamir\OneDrive\Рабочий стол\PROJ — копия (2)\WpfApp3\obj\Debug\WpfApp3.g.resources
+C:\Users\aamir\OneDrive\Рабочий стол\PROJ — копия (2)\WpfApp3\obj\Debug\WpfApp3.Properties.Resources.resources
+C:\Users\aamir\OneDrive\Рабочий стол\PROJ — копия (2)\WpfApp3\obj\Debug\WpfApp3.csproj.GenerateResource.cache
+C:\Users\aamir\OneDrive\Рабочий стол\PROJ — копия (2)\WpfApp3\obj\Debug\WpfApp3.csproj.CoreCompileInputs.cache
+C:\Users\aamir\OneDrive\Рабочий стол\PROJ — копия (2)\WpfApp3\obj\Debug\WpfApp3.exe
+C:\Users\aamir\OneDrive\Рабочий стол\PROJ — копия (2)\WpfApp3\obj\Debug\WpfApp3.pdb

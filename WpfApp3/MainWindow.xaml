@@ -1,0 +1,50 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="ПРНР_РЭА"
+        >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" MinWidth="170"></ColumnDefinition>
+            <ColumnDefinition Width="3"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <WrapPanel Name="ElementsPlace" Grid.Column="0" MinWidth="160" Width="170">
+            <Button Content="Сохранить " Click="Button_Click" Margin="5" Width="75" Height="25"/>
+            <Button Content="Загрузить" Click="Button_Click_1" Margin="5" Width="75" Height="25"/>
+            <Label Content="Количество экспериментов:" Width="160" Margin="5, 5, 5, 1" FontSize="11.5"/>
+            <TextBox Name="ExpAmount" Width="160" Margin="5, 1, 5, 5"/>
+            <Label Content="Время работы:" Width="160" Margin="5, 5, 5, 1" FontSize="11.5"/>
+            <TextBox Name="Time" Width="160" Margin="5, 1, 5, 5"/>
+            <Label Content="Коэффициент доверия:" Width="160" Margin="5, 5, 5, 1" FontSize="11.5"/>
+            <TextBox Name="Koef" Width="160" Margin="5, 1, 5, 5"/>
+            <Button Content="Рассчитать" Margin="5" Width="160" Height="25" Click="Button_Click_2"/>
+            <Label Content="T =" Width="160" Margin="5, 5, 5, 0" Name="TL"/>
+            <Label Width="160" Margin="5, 0, 5, 5" Name="TL_1"/>
+            <Label Content="P =" Width="160" Margin="5, 5, 5, 0" Name="PL"/>
+            <Label  Width="160" Margin="5, 0, 5, 5" Name="PL_1"/>
+            <StackPanel Panel.ZIndex="1" Grid.Row="0" x:Name="stackPanel" Orientation="Horizontal">
+                <RadioButton GroupName="Form" Content="A1   " Name="A1Form" Checked="A1Form_Checked"/>
+                <RadioButton GroupName="Form" Content="A2   " Name="A2Form" Checked="A2Form_Checked"/>
+                <RadioButton GroupName="Form" Content="A3   " Name="A3Form" Checked="A3Form_Checked"/>
+                <RadioButton GroupName="Form" Content="A4   " Name="A4Form" Checked="A4Form_Checked"/>
+            </StackPanel>
+        </WrapPanel>
+        <Grid Grid.Column="1" Background="LightGray" Width="2"></Grid>
+        <Grid Name="QWER"  Grid.Column="2">
+            <Canvas Name="Background" Grid.Column="2"
+            Width="{Binding ActualWidth, ElementName=SchemePlace}"
+            Height="{Binding ActualHeight, ElementName=SchemePlace}"
+            SizeChanged="UpdateBackPattern"/>
+            <Canvas Name="SchemePlace" Height="21" Width="29.7cm" MouseWheel="canvas1_MouseWheel_1">
+                <Canvas.RenderTransform>
+                    <MatrixTransform/>
+                </Canvas.RenderTransform>
+            </Canvas>
+        </Grid>
+    </Grid>
+</Window>

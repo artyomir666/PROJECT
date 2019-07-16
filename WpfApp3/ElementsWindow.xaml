@@ -1,0 +1,68 @@
+﻿<Window x:Class="WpfApp3.ElementsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="Определение елемента" Height="405" Width="640" ResizeMode="NoResize">
+    <Grid Name ="ElPlace">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" MinWidth="70"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto" MinWidth="30"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Panel.ZIndex="1" Grid.Row="0" x:Name="stackPanel" Orientation="Horizontal">
+            <RadioButton GroupName="Languages" Content="Groups     "  Name="RBElement" Checked="ElementButtonChecked"/>
+            <RadioButton GroupName="Languages" Content="List     " Name="RBList" Checked="ListButtonChecked"/>
+            <Button Content="OK" Click="ButtonOkClick" Height="20" Width="40"></Button>
+        </StackPanel>
+        <StackPanel Grid.Column="0" Grid.Row="1" Name="ElementParameters" MinWidth="300"/>
+        <Grid Name="NewList"  Grid.Column="0" Grid.Row="1">
+            <Canvas Name="Background" Grid.Row="1" Visibility="Collapsed"
+            Width="{Binding ActualWidth, ElementName=SchemePlace}"
+            Height="{Binding ActualHeight, ElementName=SchemePlace}"
+            SizeChanged="UpdateBackPattern"/>
+            <Canvas Name="SchemePlace" MinHeight="500" MaxHeight="500" Visibility="Collapsed" />
+        </Grid>
+        <ListBox Margin="5" Name="ElementList" Grid.Column="2" Grid.Row="1">
+            <ListBoxItem Margin="0"  Selected = "ElementClicked" Cursor="Hand">
+                <Label VerticalContentAlignment="Center">Простой элемент</Label>
+            </ListBoxItem>
+            <ListBoxItem Margin="0" Selected = "LoadedClicked" Cursor="Hand">
+                <Label VerticalContentAlignment="Center">Нагруженный</Label>
+            </ListBoxItem>
+            <ListBoxItem Margin="0"  Selected = "UnLoadedClicked" Cursor="Hand">
+                <Label VerticalContentAlignment="Center">Ненагруженный</Label>
+            </ListBoxItem>
+            <ListBoxItem Margin="0"  Selected = "SlidingLoadedClicked" Cursor="Hand">
+                <Label VerticalContentAlignment="Center">Скользящий нагруженный</Label>
+            </ListBoxItem>
+            <ListBoxItem Margin="0" Selected = "SlidingUnLoadedClicked" Cursor="Hand">
+                <Label VerticalContentAlignment="Center">Скользящий ненагруженный</Label>
+            </ListBoxItem>
+            <ListBoxItem Margin="0" Selected = "MajorConnectNFMClicked" Cursor="Hand">
+                <Label VerticalContentAlignment="Center">Мажоритарное n из m</Label>
+            </ListBoxItem>
+            <ListBoxItem Margin="0"  Selected = "BridgeConnectClicked" Cursor="Hand">
+                <Label VerticalContentAlignment="Center">Мостиковое соединение</Label>
+            </ListBoxItem>
+            <ListBoxItem Margin="0" Selected = "BackupDeviceControlGroupsLRClicked" Cursor="Hand">
+                <Label VerticalContentAlignment="Center">Резервирование с устройством управления (тип 1)</Label>
+            </ListBoxItem>
+            <ListBoxItem Margin="0" Selected = "SerialConnectClicked" Cursor="Hand">
+                <Label VerticalContentAlignment="Center">Последовательное соединение</Label>
+            </ListBoxItem>
+            <ListBoxItem Margin="0"  Selected = "BackupControlType2Clicked" Cursor="Hand">
+                <Label VerticalContentAlignment="Center">Резервирование с устройством управления (тип 2)</Label>
+            </ListBoxItem>
+            <ListBoxItem Margin="0" Selected = "ReservManageReplacingClicked"  Cursor="Hand">
+                <Label VerticalContentAlignment="Center">Резервирование с управляющей заменой</Label>
+            </ListBoxItem>
+        </ListBox>
+    </Grid>
+</Window>
